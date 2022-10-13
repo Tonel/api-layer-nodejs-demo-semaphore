@@ -1,0 +1,27 @@
+{
+  "name": "api-layer-nodejs-demo-semaphore",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-retry": "^3.3.1",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
